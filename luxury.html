@@ -33,6 +33,20 @@
         font-size: 1em;
     font-family: 'Courier New', Courier, monospace;
 }
+.beam {
+    display: flex;
+                flex-wrap: wrap;
+                justify-content:center;
+}
+.porsche {
+    display: flex;
+                flex-wrap: wrap;
+                justify-content:center;
+}
+@media only screen and (max-width: 600px) {
+                nav a{max-width: 100%; display: block;}
+                span {display: none;}
+            }
     </style>
 
 </head>
@@ -47,7 +61,10 @@
 <h2>
     Luxury Vehicles
 </h2> 
-<img src="benz.jpg" alt="benz">
+<div class="benzo">
+    <div class= "sb"><img src="benz.png" alt="benz"></div>
+</div>
+
 
 <div class= "text">
     <p>
@@ -61,7 +78,12 @@ touch screen in the center console. The vehicle has been renowned for its array 
 driving capabilities.
     </p>
 </div>
- 
+
+<div class="beam">
+    <div class= "bmw"><img src="750.jpg" alt="beamer"></div>
+</div>
+
+
 <div class= "text">
 <p>
    <b>BMW 750i Starting at $87,795</b>
@@ -76,6 +98,11 @@ driving capabilities.
 </div>
 
 <div class= "text">
+
+    <div class="benzz">
+        <div class= "glec"><img src="gle.jpg" alt="coupe"></div>
+    </div>
+
 <p>
 <b>Mercedes GLE Starting at $56,750</b>
 The Mercedes GLE previously known as the ML is the Mercedes SUV to get. When Mercedes released its
@@ -85,6 +112,11 @@ man power to keep producing them without back orders. Its new updated cabin has 
 as it has taken on the old look of the S class infotainment system. The car is very upscale appealing and it is
 also spacious holding a third row
 </p>
+</div>
+
+
+<div class="porsche">
+    <div class= "ccpor"><img src="cayenne.jpg" alt="coupe"></div>
 </div>
 
 <div class= "text">
